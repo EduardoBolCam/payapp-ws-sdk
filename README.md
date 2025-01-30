@@ -18,6 +18,7 @@ To install this library use Composer.
 To publish the configuration file, run the following command:
 ```bash
 php artisan vendor:publish --tag=payappws-config
+```
 
 ## Authors
 

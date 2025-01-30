@@ -13,7 +13,7 @@ class PayappWsServiceProvider extends ServiceProvider
     {
         // Merge the package configuration with the application's published configuration.
         $this->mergeConfigFrom(
-            __DIR__.'/../config/payappws.php', 'payappws-config'
+            __DIR__.'/../config/payappws.php', 'payappws'
         );
     }
 
@@ -25,6 +25,6 @@ class PayappWsServiceProvider extends ServiceProvider
         // Publish the configuration file.
         $this->publishes([
             __DIR__.'/../config/payappws.php' => config_path('payappws.php'),
-        ], 'config'); // Use 'config' as the tag for publishing.
+        ], 'payappws-config'); // Use 'config' as the tag for publishing.
     }
 }

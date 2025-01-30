@@ -1,6 +1,7 @@
 {
     "name": "dev_dizs/payapp-ws",
     "description": "Package to use and manage Procotel Payapp WebService",
+    "version": "0.0.1",
     "type": "library",
     "require": {
         "php": "7.4.*",
