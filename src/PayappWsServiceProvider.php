@@ -4,7 +4,7 @@ namespace DevDizs\PayappWs;
 
 use Illuminate\Support\ServiceProvider;
 
-class MyPackageServiceProvider extends ServiceProvider
+class PayappWsServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
