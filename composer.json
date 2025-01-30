@@ -1,0 +1,23 @@
+{
+    "name": "dev_dizs/payapp-ws",
+    "description": "Package to use and manage Procotel Payapp WebService",
+    "type": "library",
+    "require": {
+        "php": "7.4.*",
+        "econea/nusoap": "0.9.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevDizs\\PayappWs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EduardoLBC",
+            "email": "eduardo@blazecore.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    }
+}
