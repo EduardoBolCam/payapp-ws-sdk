@@ -23,12 +23,12 @@ final class PayappBalance
      */
      public function __construct( string $user, string $password, string $dongle )
      {
-         $this->user     = $user;
-         $this->password = $password;
-         $this->dongle   = $dongle;
- 
-         $config = new Config();
-         $this->env = $config->getConfig( 'env' );
+        $this->user     = $user;
+        $this->password = $password;
+        $this->dongle   = $dongle;
+
+        $config = new Config();
+        $this->env = $config->getConfig( 'env' );
      }
 
     public function getRechargesBalance()
